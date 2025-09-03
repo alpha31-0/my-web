@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'vazirmatn';
+    font-size: 100%;
+}
+
+body{
+    background-color: rgb(225, 225, 225);
+}
+
+header{
+    border-bottom: 1px solid black;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.h2{
+    width: 70px;
+    height: 60px;
+    position: absolute;
+    left: 11.5%;
+    bottom: 15px;
+}
+
+.logo h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 2rem;
+}
+
+.navbar{
+    margin-right: 1.5rem;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin-left: 3rem;
+    color: black;
+    transition: 0.1s;
+}
+
+.navbar a:hover,
+.navbar .active{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.sing{
+    margin-right: 3rem;
+    text-decoration: none;
+}
+
+.sing span{
+    color: black;
+    transition: 0.1s;
+}
+
+
+.sing:hover, .sing span:hover{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.main1{
+   width: 500px; 
+   padding: 1rem 0rem; 
+}
+
+.main1 p{
+    line-height: 2.1rem;
+}
+
+.main2{
+    width: 600px;
+    height: 450px;
+
+}
+
+.main3{
+    width: 500px;
+    height: 280px;
+    position: absolute;
+    left: 60%;
+    top: 45%;
+}
+
+.main4{
+    position: absolute;
+    left: 35%;
+    top: 100px;
+}
+
+.main4 button{
+    padding: 3px 20px;
+    border: 1.8px solid blue;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 10px;
+    background-color: inherit;
+    box-shadow: 0px 0px 5px black;
+}
+
+.main4 button:hover{
+    box-shadow: 0px 3px 2px blue;
+}
+
+.main5{
+    position: absolute;
+    left: 36%;
+    top: 35%;
+}
+
+.main5 i{
+    color: rgb(0, 0, 98);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main5 i:hover{
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
